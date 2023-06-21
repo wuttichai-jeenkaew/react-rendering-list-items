@@ -1,8 +1,6 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
-import movies from "./data/movies";
-import teams from "./data/teams";
 
 function App() {
   return (

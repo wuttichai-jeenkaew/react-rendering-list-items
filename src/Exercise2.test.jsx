@@ -25,7 +25,7 @@ describe("renders team lists", () => {
   it("render child name", () => {
     render(<App />);
     teams.forEach((team) => {
-      team.children.map((child) => {
+      team.children.forEach((child) => {
         const regex = new RegExp(`${child.name} Team`);
         const childNameElement = screen.getByText(regex);
         expect(childNameElement).toBeInTheDocument();
@@ -36,7 +36,7 @@ describe("renders team lists", () => {
   it("render child id", () => {
     render(<App />);
     teams.forEach((team) => {
-      team.children.map((child) => {
+      team.children.forEach((child) => {
         const regex = new RegExp(`(${child.id})`);
         const childIdElement = screen.getByText(regex);
         expect(childIdElement).toBeInTheDocument();
