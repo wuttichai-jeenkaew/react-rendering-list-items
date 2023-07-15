@@ -1,9 +1,10 @@
 import { render, screen } from "@testing-library/react";
-import App from "./App";
+import App from "../src/App";
 import { expect } from "vitest";
-import teams from "./data/teams";
+import teams from "../src/data/teams";
 
-describe("renders team lists", () => {
+// ไม่ต้องทำ Exercise 2
+describe.skip("renders team lists", () => {
   it("renders team names", () => {
     render(<App />);
     teams.forEach((team) => {

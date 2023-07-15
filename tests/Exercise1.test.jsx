@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
-import App from "./App";
+import App from "../src/App";
 import { expect } from "vitest";
-import movies from "./data/movies";
+import movies from "../src/data/movies";
 import fs from "fs";
 import path from "path";
 
