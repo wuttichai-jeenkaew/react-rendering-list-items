@@ -1,7 +1,7 @@
 export function MovieCard({ movie, className }) {
   return (
     <div
-      className={`flex items-start bg-white text-[#181818] font-semibold border border-white p-4 sm:p-4 rounded-xl shadow-lg shadow-[#917C7C40] w-full sm:w-[450px] md:w-[450px] transition-transform hover:scale-105 ${className}`}
+      className={`flex items-start bg-white text-[#181818] border border-white p-4 sm:p-4 rounded-xl shadow-lg shadow-[#917C7C40] w-full sm:w-[450px] md:w-[450px] transition-transform hover:scale-105 ${className}`}
     >
       {/* Movie Image */}
       <img

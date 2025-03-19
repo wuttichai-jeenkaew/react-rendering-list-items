@@ -5,9 +5,9 @@ import { MovieCard } from "./components/MovieCard";
 function App() {
   return (
     <div className="App">
-      <section className="flex justify-center items-center bg-[#FDFBFB]">
+      <section className="flex justify-center items-center bg-[#FDFBFB] font-kanit">
         <div className="grid grid-cols-1 gap-20 p-6">
-          <h1 className="text-[40px] font-semibold flex justify-center">
+          <h1 className="text-[40px] flex justify-center">
             Movie List Section
           </h1>
           {movies.map((movie) => (
