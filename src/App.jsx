@@ -1,13 +1,16 @@
-import "./App.css";
+import "./App.css"
+import MovieList from "../src/components/movie-list"
 
 function App() {
   return (
-    <div className="App">
-      <section className="movie-list-section">
+    <div className='bg-[#FDFBFB]'>
+      <h1 className='text-4xl text-center pt-12'>Movie List Section</h1>
+      <section>
         {/* Render Movie Lists Here */}
+        <MovieList />
       </section>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
